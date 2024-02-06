@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <h2>App Lista de SuperMercado</h2>
+    </header>
+    <div class="lista-cadastro">
+        <input type="text" placeholder="nome do produto..."
+        name="nome_produto" />
+        <input type="number" name="price" step="0.01" placeholder="valor do produto..." 
+        name="valor_produto" />
+        <input type="submit" name="acao" value="Cadastrar">
+    </div>
+
+    <div class="lista-produtos">
+    </div>
+
+    <div class="soma-produto">
+        <h2>Total: R$0</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

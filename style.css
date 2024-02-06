@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: rgb(29, 88, 165);
+    text-align: center;
+    color: white;
+    padding: 20px 0; 
+}
+
+.lista-cadastro{
+    display: flex;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.lista-cadastro input{
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.lista-produto-single{
+    padding: 10px 0;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+.lista-produto-single h3{
+    flex: 1;
+    padding: 0 20px;   
+}
+
+h3.price-produto{
+    text-align: right;
+    font-size: 17px;
+}
+
+h3.price-produto > span{
+    background-color: rgb(29, 88, 165);
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.soma-produto{
+    margin: 20px;
+}
+
+.btnLimpar-valor{
+    display: flex;
+    align-items: baseline;
+}
+
+.btnLimpar-valor button{
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5 ease;
+}
+
+.btnLimpar-valor button:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.2);
+}
+
